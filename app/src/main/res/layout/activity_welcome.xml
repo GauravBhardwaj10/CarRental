@@ -33,15 +33,19 @@
             android:text="Skip"
             android:visibility="gone"
             android:background="@null"
-            android:textColor="#FFFFFF"/>
-    <Button
-        android:id="@+id/btn_next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:text="Next"
-        android:background="@null"
-        android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="10sp"/>
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Next"
+            android:background="@color/bg_screen2"
+            android:textColor="#F5F6F6"
+            android:layout_marginBottom="13sp"
+            android:layout_marginRight="10sp"/>
 
 </RelativeLayout>
