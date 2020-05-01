@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".AdminActivity"
     android:background="@drawable/background2">
 
     <ImageView
@@ -25,7 +25,7 @@
         >
 
         <TextView
-            android:id="@+id/loginTextView"
+            android:id="@+id/loginTextViewAdminpage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/registrationTextView"
+            android:id="@+id/registrationTextViewAdminpage"
             android:layout_marginLeft="15dp"
             android:textSize="20dp"
 
@@ -48,7 +48,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ADMINTextView"
+            android:id="@+id/ADMINTextViewAdminpage"
             android:layout_marginLeft="15dp"
             android:textSize="20dp"
 
@@ -65,29 +65,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:id="@+id/loginLayout"
+        android:id="@+id/adminLayout"
 
         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Login Form"
+            android:layout_marginLeft="110dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"/>
+
+
 
 
 
 
         <EditText
-            android:id="@+id/LogEmaileditText"
+            android:id="@+id/EmailEditTextADMINPAge"
             android:layout_width="255dp"
             android:layout_height="81dp"
             android:layout_marginLeft="95dp"
             android:layout_marginTop="35dp"
             android:textColorHint="#ffffff"
             android:hint="Email"
-            android:inputType="textEmailAddress"
             android:textColor="#ffffff"/>
 
 
         <EditText
-            android:id="@+id/LogpasswordeditText"
-            android:inputType="textPassword"
-
+            android:id="@+id/PasswordEditTextAdminPage"
             android:layout_width="255dp"
             android:layout_height="81dp"
             android:layout_marginLeft="95dp"
@@ -100,7 +107,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/Logjoinbtn"
+            android:id="@+id/AdmiPagesignup"
             android:layout_gravity="center"
             android:layout_marginTop="35dp"
             android:text="sign in"

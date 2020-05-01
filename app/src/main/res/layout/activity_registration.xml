@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".RegistrationActivity"
+        android:background="@drawable/background2">
+
+
+        <ImageView
+            android:id="@+id/appicon"
+            android:layout_width="172dp"
+            android:layout_height="102dp"
+            android:src="@drawable/jeep"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="30dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/loginTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="140dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registrationTextView"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp"
+
+                android:textColor="#ffffff"
+                android:text="Registration"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/regstrationLayout"
+
+            android:orientation="vertical"
+            android:visibility="visible"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Registration Form"
+                android:layout_marginLeft="100dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="15dp"
+                android:textSize="25dp"/>
+
+
+            <EditText
+                android:id="@+id/firsteditText"
+                android:layout_width="255dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="30dp"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:hint="First Name"/>
+
+
+            <EditText
+                android:id="@+id/lasteditText"
+                android:layout_width="255dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="35dp"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:hint="Last Name"/>
+
+            <EditText
+
+                android:id="@+id/EmaileditText"
+                android:inputType="textEmailAddress"
+
+
+                android:layout_width="255dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="35dp"
+                android:textColorHint="#ffffff"
+                android:hint=" Email Id"
+                android:textColor="#ffffff"/>
+            <EditText
+
+                android:id="@+id/passwordeditText"
+                android:inputType="textPassword"
+
+
+                android:layout_width="255dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="35dp"
+                android:textColorHint="#ffffff"
+                android:hint=" Password"
+                android:textColor="#ffffff"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/joinbtn"
+                android:text="Register"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="165dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

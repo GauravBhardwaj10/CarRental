@@ -6,6 +6,7 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -71,11 +72,13 @@ public class WelcomeActivity extends AppCompatActivity {
                 int current=getItem(+1);
                 if (current<layouts.length){
                     // move to next screen
-                    //intent
+                Intent intent= new Intent(WelcomeActivity.this,RegistrationActivity.class);
+                startActivity(intent);
                     // viewPager.setCurrentItem(current);
                 }
                 else {
-                    //intent
+                    Intent intent= new Intent(WelcomeActivity.this,RegistrationActivity.class);
+                    startActivity(intent);
                 }
             }
         });
