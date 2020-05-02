@@ -34,7 +34,7 @@ public class WelcomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
-
+        getSupportActionBar().hide();
         viewPager=(ViewPager) findViewById(R.id.view_pager);
         dotsLayout=(LinearLayout) findViewById(R.id.layout_dots);
         btnnext=(Button) findViewById(R.id.btn_next);
