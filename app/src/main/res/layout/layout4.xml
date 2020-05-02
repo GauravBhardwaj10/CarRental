@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:background="@drawable/colorcar"
-        android:layout_centerInParent="true">
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/splasho" />
 
-    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Choose your desired Kms"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Whether you are driving far in a short period of time, or near over a longer peroid. We have the right price package for you">
+        </TextView>
 
+    </RelativeLayout>
 </RelativeLayout>

@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_centerInParent="true"
-        android:background="@drawable/carpool"/>
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/splasho" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Self Drive Cars where you need them"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Cars within waling distance of your home or office,or delivered to your doorstep">
+        </TextView>
+
+    </RelativeLayout>
 </RelativeLayout>
