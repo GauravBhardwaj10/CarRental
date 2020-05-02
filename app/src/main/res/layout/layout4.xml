@@ -19,8 +19,7 @@
             android:gravity="center"
             android:layout_marginBottom="230dp"
             android:textSize="25dp"
-            android:textStyle="bold"
-            android:id="@+id/txt0">
+            android:textStyle="bold">
         </TextView>
         <TextView
             android:layout_width="match_parent"
@@ -28,7 +27,6 @@
             android:layout_alignParentBottom="true"
             android:text="Whether you are driving far in a short period of time, or near over a longer peroid. We have the right price package for you"
             android:layout_marginBottom="170dp"
-            android:layout_alignBottom="@+id/txt0"
             android:paddingLeft="15dp"
             android:paddingRight="15dp">
         </TextView>
