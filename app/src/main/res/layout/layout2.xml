@@ -9,7 +9,7 @@
             android:layout_alignParentBottom="true">
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="600dp"
                 android:src="@drawable/splasht"/>
         <TextView
             android:layout_width="match_parent"
@@ -17,8 +17,8 @@
             android:layout_alignParentBottom="true"
             android:id="@+id/txt1"
             android:gravity="center"
-            android:layout_marginBottom="20dp"
-            android:textSize="20dp"
+            android:layout_marginBottom="230dp"
+            android:textSize="25dp"
             android:textStyle="bold"
             android:text="Hatchback, Sedan, SUV or Luxury">
         </TextView>
@@ -27,7 +27,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignBottom="@+id/txt1"
-            android:text="Datenight or a long trip to the hills, we have a car for everything">
+            android:text="Datenight or a long trip to the hills, we have a car for everything"
+            android:layout_marginBottom="170dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
         </TextView>
     </RelativeLayout>
 

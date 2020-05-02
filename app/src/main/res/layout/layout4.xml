@@ -8,7 +8,7 @@
         android:layout_alignParentBottom="true">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="600dp"
             android:src="@drawable/splasho" />
 
         <TextView
@@ -17,15 +17,20 @@
             android:layout_alignParentBottom="true"
             android:text="Choose your desired Kms"
             android:gravity="center"
-            android:layout_marginBottom="40dp"
-            android:textSize="20dp"
-            android:textStyle="bold">
+            android:layout_marginBottom="230dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/txt0">
         </TextView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:text="Whether you are driving far in a short period of time, or near over a longer peroid. We have the right price package for you">
+            android:text="Whether you are driving far in a short period of time, or near over a longer peroid. We have the right price package for you"
+            android:layout_marginBottom="170dp"
+            android:layout_alignBottom="@+id/txt0"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
         </TextView>
 
     </RelativeLayout>
